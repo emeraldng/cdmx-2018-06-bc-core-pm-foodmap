@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- FontAwesome Icons-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100" rel="stylesheet">
+  
+  <title>FOODIES</title>
+</head>
+<body>
+  <div>
+  <select id="list" onclick="getSelectValue();">
+    <option value="all">All</option>
+    <option value="mexicana">Mexicana</option>
+    <option value="fastfood">Fast Food</option>
+    <option value="japonesa">Japonesa</option>
+    <option value="china">China</option>
+    </select>
+  </div>
+
+  <div class="row">
+      <div class="card-white" id="selectedfood">
+      </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
