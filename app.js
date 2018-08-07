@@ -34,21 +34,22 @@ window.restaurantMexs = (data) => {
 
                 for (i = 0; i < arrmexfoodLength; i++) {
                     result += `
-                                    <div class='col xl4'>
-                                   <div class='card'>
-                      
-                                   <p><span class="card-title" align="center">${data.comidamex.restaurante[info[restaurante]].places[i].nombre}</span></p>
-                                   <div class="card-content center">
-                                   <p>Rango de precios: ${data.comidamex.restaurante[info[restaurante]].places[i].pricing}</p>
-                                   <img class="responsive-img" src="${data.comidamex.restaurante[info[restaurante]].places[i].foto}" height="150" width="150"></img>
-                                   <div class="card-action">
-                                   <a href="#">+ INFO</a>
-                                   
-                                 </div>
-                                   </div>
-                     
+                    <div class="row">
+                    <div class="col s12 m7">
+                      <div class="card">
+                        <div class="card-image">
+                          <img src="${data.comidamex.restaurante[info[restaurante]].places[i].foto}">
+                          <span class="card-title">${data.comidamex.restaurante[info[restaurante]].places[i].nombre}</span>
+                        </div>
+                        <div class="card-content">
+                          <p>${data.comidamex.restaurante[info[restaurante]].places[i].comentario}</p>
+                        </div>
+                        <div class="card-action">
+                          <a href="#">+ INFO</a>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-              </div>
                     `
                 }
             }
