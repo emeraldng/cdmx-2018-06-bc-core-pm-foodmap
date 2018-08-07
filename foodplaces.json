@@ -65,18 +65,18 @@
         "restaurante": {
             "japones": {
                 "places": [{
-                        "nombre": "El gran Sensei",
+                        "nombre": "Mikasa",
                         "categoria": "japonesa",
                         "pricing": "Moderado",
-                        "domicilio": "Monterrey 453, col Roma, CDMX",
-                        "localizacion": " ",
+                        "domicilio": "San Luis Potosí 173, Roma Nte., 06700 Ciudad de México, CDMX",
+                        "localizacion": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15051.885068248019!2d-99.1635498!3d19.4136474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd5c4dd6ef3453932!2sSuper+Mikasa!5e0!3m2!1ses!2smx!4v1533659800654",
                         "tel": "01 55 79 43 12",
                         "horario": "10:00 - 20:00 ",
                         "foto": "http://i65.tinypic.com/2j3jl0z.jpg",
                         "comentario": "Comida japonesa en una mezcla de lo oriental con lo mexicano, sabores innovadores "
                     },
                     {
-                        "nombre": "Mikasa",
+                        "nombre": "El Gran Sensei",
                         "categoria": "japonesa ",
                         "pricing": "Económico",
                         "domicilio": "Durango 286, col Roma, CDMX ",
@@ -104,7 +104,7 @@
                         "domicilio": "Nayarit 189, Col Roma, CDMX",
                         "localizacion": "",
                         "tel": "01 56 13 89 12 ",
-                        "horario": " ",
+                        "horario": "13:00-22:00",
                         "foto": "http://i67.tinypic.com/2dwenn5.jpg",
                         "comentario": "Restaurante japonés gourmet, una experiencia para paladares exigentes "
                     },
@@ -127,11 +127,11 @@
         "restaurante": {
             "fastfood": {
                 "places": [{
-                        "nombre": "Pizzarello ",
+                        "nombre": "Pizza del Perro Negro",
                         "categoria": "Fast Food",
                         "pricing": "Deluxe ",
-                        "domicilio": "Orizaba 512, Col Roma, CDMX ",
-                        "localizacion": " ",
+                        "domicilio": "Parque España 3, Roma Nte., 06700 Ciudad de México, CDMX",
+                        "localizacion": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15051.88135970777!2d-99.16354980316984!3d19.413687456189923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff4709285507%3A0xbbb2cd252c5b4946!2sPizza+del+Perro+Negro!5e0!3m2!1ses!2smx!4v1533660156238",
                         "tel": "01 59 32 19 74  ",
                         "horario": "14:00-23:00",
                         "foto": "http://i66.tinypic.com/206fsdh.jpg",
@@ -155,7 +155,7 @@
                         "domicilio": "Av de los Insurgentes 1897, Col Roma, CDMX",
                         "localizacion": " ",
                         "tel": "01 79 13 85 30",
-                        "horario": " ",
+                        "horario": "11:00-21:00",
                         "foto": "http://i63.tinypic.com/nnvby1.jpg",
                         "comentario": "Famoso establecimiento de hamburguesas y papitas, 100% estilo americano "
                     },

@@ -1,14 +1,14 @@
-const api = "https://raw.githubusercontent.com/emeraldng/cdmx-2018-06-bc-core-pm-foodmap/master/foodplaces.json";
+const api = "https://api.myjson.com/bins/161tpk";
 
 window.onload = () => {
     fetch(api)
         .then(response => response.json())
         .then((data) => {
             //aqui van todas las funciones que utilicen la data
+            console.log(data);
             restaurantMexs(data);
-            //getSelectValue(data);
-
-            //console.log(data);
+            restaurantJapo(data);
+            restaurantFastFood(data);
 
         })
         .catch((error) => {
@@ -34,10 +34,8 @@ window.restaurantMexs = (data) => {
                 //console.log(arrmexfoodLength);
                 
 
-                for (i = 0; i < arrmexfoodLength; i++) {
-                    $(document).ready(function () {
-                        $('.modal').modal();
-                    });
+                for (let i = 0; i < arrmexfoodLength; i++) {
+                   
                     result += `
                     <div class="row">
                     <div class="col s12 m7">
@@ -70,6 +68,76 @@ window.restaurantMexs = (data) => {
                     </div>
                   </div>
                     `
+                    i++;
+                    
+                }
+            }
+            container.innerHTML = result;
+            $(document).ready(function () {
+                $('.modal').modal({
+                    acordion: true
+                });
+
+            });
+        }
+    });
+}
+
+
+//Funcion para COMIDA JAPONESA
+
+//const container = document.getElementById('result');
+window.restaurantJapo = (data) => {
+    document.getElementById('btn1').addEventListener('click', (event) => {
+        let result = '';
+        const info = Object.keys(data.comidajaponesa.restaurante);
+       
+
+        for (var restaurante in info) {
+            if (info.hasOwnProperty(restaurante)) {
+                let arrjapfood = data.comidajaponesa.restaurante[info[restaurante]].places;
+                
+
+                let arrjapfoodLength = arrjapfood.length;
+                
+                
+
+                for (i = 0; i < arrjapfoodLength; i++) {
+                    $(document).ready(function () {
+                        $('.modal').modal();
+                    });
+                    result += `
+                    <div class="row">
+                    <div class="col s12 m7">
+                      <div class="card">
+                        <div class="card-image">
+                          <img src="${data.comidajaponesa.restaurante[info[restaurante]].places[i].foto}">
+                          <span class="card-title">${data.comidajaponesa.restaurante[info[restaurante]].places[i].nombre}</span>
+                          </div>
+                          <div class="card-content">
+                          <p>${data.comidajaponesa.restaurante[info[restaurante]].places[i].categoria}</p>
+                          <p>${data.comidajaponesa.restaurante[info[restaurante]].places[i].comentario}</p>
+                          <p>Princing: ${data.comidajaponesa.restaurante[info[restaurante]].places[i].pricing}</p>
+                           </div>
+                           <div class="card-action">
+                           <a class="waves-effect waves-light btn modal-trigger" href="#modal1">+ INFO</a>
+                           <div id="modal1" class="modal">
+                           <div class="modal-content">
+                           <h5>${data.comidajaponesa.restaurante[info[restaurante]].places[i].nombre}</h5>
+                           <p>Domicilio: ${data.comidajaponesa.restaurante[info[restaurante]].places[i].domicilio}</p>
+                           <p>Tel: ${data.comidajaponesa.restaurante[info[restaurante]].places[i].tel}</p>
+                           <p>Horario: ${data.comidajaponesa.restaurante[info[restaurante]].places[i].horario}</p>
+                           <iframe class="resp-iframe-center-aling" src="${data.comidajaponesa.restaurante[info[restaurante]].places[i].localizacion}" width="150" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+                           </div>
+                           <div class="modal-footer">
+                           <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                           </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    `
                     
                 }
             }
@@ -78,6 +146,66 @@ window.restaurantMexs = (data) => {
     });
 }
 
+
+//const container = document.getElementById('result');
+window.restaurantFastFood = (data) => {
+    document.getElementById('btn2').addEventListener('click', (event) => {
+        let result = '';
+        const info = Object.keys(data.comidafastfood.restaurante);
+       
+
+        for (var restaurante in info) {
+            if (info.hasOwnProperty(restaurante)) {
+                let arrfastfood = data.comidafastfood.restaurante[info[restaurante]].places;
+                
+
+                let arrfastfoodLength = arrfastfood.length;
+                
+                
+
+                for (i = 0; i < arrfastfoodLength; i++) {
+                    $(document).ready(function () {
+                        $('.modal').modal();
+                    });
+                    result += `
+                    <div class="row">
+                    <div class="col s12 m7">
+                      <div class="card">
+                        <div class="card-image">
+                          <img src="${data.comidafastfood.restaurante[info[restaurante]].places[i].foto}">
+                          <span class="card-title">${data.comidafastfood.restaurante[info[restaurante]].places[i].nombre}</span>
+                          </div>
+                          <div class="card-content">
+                          <p>${data.comidafastfood.restaurante[info[restaurante]].places[i].categoria}</p>
+                          <p>${data.comidafastfood.restaurante[info[restaurante]].places[i].comentario}</p>
+                          <p>Princing: ${data.comidafastfood.restaurante[info[restaurante]].places[i].pricing}</p>
+                           </div>
+                           <div class="card-action">
+                           <a class="waves-effect waves-light btn modal-trigger" href="#modal1">+ INFO</a>
+                           <div id="modal1" class="modal">
+                           <div class="modal-content">
+                           <h5>${data.comidafastfood.restaurante[info[restaurante]].places[i].nombre}</h5>
+                           <p>Domicilio: ${data.comidafastfood.restaurante[info[restaurante]].places[i].domicilio}</p>
+                           <p>Tel: ${data.comidafastfood.restaurante[info[restaurante]].places[i].tel}</p>
+                           <p>Horario: ${data.comidafastfood.restaurante[info[restaurante]].places[i].horario}</p>
+                           <iframe class="resp-iframe-center-aling" src="${data.comidafastfood.restaurante[info[restaurante]].places[i].localizacion}" width="150" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+                           </div>
+                           <div class="modal-footer">
+                           <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+                           </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    `
+                    
+                }
+            }
+            container.innerHTML = result;
+        }
+    });
+}
 
 
 // const card = document.getElementById('selectedfood');
