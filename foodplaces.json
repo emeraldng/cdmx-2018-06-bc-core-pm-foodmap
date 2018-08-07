@@ -1,0 +1,251 @@
+{
+    "comidamex": {
+        "restaurante": {
+            "mexicano": {
+                "places": [{
+                        "nombre": "Yuban",
+                        "categoria": "Mexicana",
+                        "pricing": "Moderado",
+                        "domicilio": "Colima 268, Roma Nte., 06700 Ciudad de México, CDMX",
+                        "localizacion": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.8499072349828!2d-99.1662985850935!3d19.418889986892115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff39c68ba6ff%3A0xa6ceb4fcc8a227c!2sYuban!5e0!3m2!1ses!2smx!4v1533499167013",
+                        "tel": "01 55 6387 0358",
+                        "horario": "14:00–02:00",
+                        "foto": "http://oi64.tinypic.com/wt7p6o.jpg",
+                        "comentario": "Un comedor rústico y refinado con paredes de madera que sirve recetas indígenas zapotecas y mezcal artesana"
+                    },
+                    {
+                        "nombre": "Pulqueria Los Insurgentes",
+                        "categoria": "Mexicana ",
+                        "pricing": "Económico ",
+                        "domicilio": "Insurgentes Sur 226, Roma Nte., 06700 Ciudad de México, CDMX ",
+                        "localizacion": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.8499072349828!2d-99.1662985850935!3d19.418889986892115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff39c68ba6ff%3A0xa6ceb4fcc8a227c!2sYuban!5e0!3m2!1ses!2smx!4v1533499167013",
+                        "tel": "01 55 6387 0358",
+                        "horario": "14:00–02:00",
+                        "foto": "http://oi66.tinypic.com/r0bmty.jpg",
+                        "comentario": "Local sencillo especialista en pulques y antojitos, además de ser un foro para música, literatura y arte."
+                    },
+                    {
+                        "nombre": "El Beso Huasteco",
+                        "categoria": "Mexicana",
+                        "pricing": "Moderado",
+                        "domicilio": "Córdoba 146, Roma Nte., 06700 Ciudad de México, CDMX",
+                        "localizacion": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.9025988154467!2d-99.16015038574986!3d19.416613946224437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3b17e00cb1%3A0x6b2d110164f170a3!2sEl+Beso+Huasteco!5e0!3m2!1ses!2smx!4v1533501247513",
+                        "tel": "01 55 5264 1591",
+                        "horario": "09:00–23:00",
+                        "foto": "http://oi64.tinypic.com/2im7rs1.jpg",
+                        "comentario": "Restaurante en una casona decorada con artesanías que sirve especialidades huastecas en una atmósfera casera."
+                    },
+                    {
+                        "nombre": "Tres Galeones",
+                        "categoria": "Mexicana",
+                        "pricing": "Deluxe",
+                        "domicilio": "Jalapa 117, Roma Nte., 06700 Ciudad de México, CDMX",
+                        "localizacion": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.8807454229204!2d-99.16328868574979!3d19.417557946194545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3a34559649%3A0xf68b147e2136be58!2sTres+Galeones!5e0!3m2!1ses!2smx!4v1533501450543",
+                        "tel": "01 55 5564 3121",
+                        "horario": "12:00–18:30",
+                        "foto": "http://oi67.tinypic.com/148p3dv.jpg",
+                        "comentario": "Un espacio minimalista con ventanas grandes y mesas al aire libre que sirve tacos y platillos mexicanos."
+                    },
+                    {
+                        "nombre": "El Parnita",
+                        "categoria": "Mexicana",
+                        "pricing": "Económico",
+                        "domicilio": "Av. Yucatan 84, Roma Nte., 06700 Ciudad de México, CDMX",
+                        "localizacion": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.961232161089!2d-99.16481208574986!3d19.414080946304825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff3eac89d025%3A0x19e7ef979358be0!2sEl+Parnita!5e0!3m2!1ses!2smx!4v1533501650738",
+                        "tel": "01 55 5264 7551",
+                        "horario": "13:30–18:00",
+                        "foto": "http://oi64.tinypic.com/211nvnn.jpg",
+                        "comentario": "Punto de reunión con variado menú de antojitos mexicanos ofrecido en un comedor simple con ambiente informal."
+                    }
+                ]
+            }
+        }
+    },
+    "comidafastfood": {
+        "restaurante": {
+            "fastfood": {
+                "places": [{
+                        "nombre": " ",
+                        "categoria": " ",
+                        "pricing": " ",
+                        "domicilio": " ",
+                        "localizacion": " ",
+                        "tel": " ",
+                        "horario": " ",
+                        "foto": "url",
+                        "comentario": " "
+                    },
+                    {
+                        "nombre": " ",
+                        "categoria": " ",
+                        "pricing": " ",
+                        "domicilio": " ",
+                        "localizacion": " ",
+                        "tel": " ",
+                        "horario": " ",
+                        "foto": "url",
+                        "comentario": " "
+                    },
+                    {
+                        "nombre": " ",
+                        "categoria": " ",
+                        "pricing": " ",
+                        "domicilio": " ",
+                        "localizacion": " ",
+                        "tel": " ",
+                        "horario": " ",
+                        "foto": "url",
+                        "comentario": " "
+                    },
+                    {
+                        "nombre": " ",
+                        "categoria": " ",
+                        "pricing": " ",
+                        "domicilio": " ",
+                        "localizacion": " ",
+                        "tel": " ",
+                        "horario": " ",
+                        "foto": "url",
+                        "comentario": " "
+                    },
+                    {
+                        "nombre": " ",
+                        "categoria": " ",
+                        "pricing": " ",
+                        "domicilio": " ",
+                        "localizacion": " ",
+                        "tel": " ",
+                        "horario": " ",
+                        "foto": "url",
+                        "comentario": " "
+                    }
+                ]
+            }
+        }
+    },
+    "comidajaponesa": {
+        "restaurante": {
+            "japones": {
+                "places": [{
+                        "nombre": " ",
+                        "categoria": " ",
+                        "pricing": " ",
+                        "domicilio": " ",
+                        "localizacion": " ",
+                        "tel": " ",
+                        "horario": " ",
+                        "foto": "url",
+                        "comentario": " "
+                    },
+                    {
+                        "nombre": " ",
+                        "categoria": " ",
+                        "pricing": " ",
+                        "domicilio": " ",
+                        "localizacion": " ",
+                        "tel": " ",
+                        "horario": " ",
+                        "foto": "url",
+                        "comentario": " "
+                    },
+                    {
+                        "nombre": " ",
+                        "categoria": " ",
+                        "pricing": " ",
+                        "domicilio": " ",
+                        "localizacion": " ",
+                        "tel": " ",
+                        "horario": " ",
+                        "foto": "url",
+                        "comentario": " "
+                    },
+                    {
+                        "nombre": " ",
+                        "categoria": " ",
+                        "pricing": " ",
+                        "domicilio": " ",
+                        "localizacion": " ",
+                        "tel": " ",
+                        "horario": " ",
+                        "foto": "url",
+                        "comentario": " "
+                    },
+                    {
+                        "nombre": " ",
+                        "categoria": " ",
+                        "pricing": " ",
+                        "domicilio": " ",
+                        "localizacion": " ",
+                        "tel": " ",
+                        "horario": " ",
+                        "foto": "url",
+                        "comentario": " "
+                    }
+                ]
+            }
+        }
+    },
+    "comidavegana": {
+        "restaurante": {
+            "vegano": {
+                "places": [{
+                        "nombre": " ",
+                        "categoria": " ",
+                        "pricing": " ",
+                        "domicilio": " ",
+                        "localizacion": " ",
+                        "tel": " ",
+                        "horario": " ",
+                        "foto": "url",
+                        "comentario": " "
+                    },
+                    {
+                        "nombre": " ",
+                        "categoria": " ",
+                        "pricing": " ",
+                        "domicilio": " ",
+                        "localizacion": " ",
+                        "tel": " ",
+                        "horario": " ",
+                        "foto": "url",
+                        "comentario": " "
+                    },
+                    {
+                        "nombre": " ",
+                        "categoria": " ",
+                        "pricing": " ",
+                        "domicilio": " ",
+                        "localizacion": " ",
+                        "tel": " ",
+                        "horario": " ",
+                        "foto": "url",
+                        "comentario": " "
+                    },
+                    {
+                        "nombre": " ",
+                        "categoria": " ",
+                        "pricing": " ",
+                        "domicilio": " ",
+                        "localizacion": " ",
+                        "tel": " ",
+                        "horario": " ",
+                        "foto": "url",
+                        "comentario": " "
+                    },
+                    {
+                        "nombre": " ",
+                        "categoria": " ",
+                        "pricing": " ",
+                        "domicilio": " ",
+                        "localizacion": " ",
+                        "tel": " ",
+                        "horario": " ",
+                        "foto": "url",
+                        "comentario": " "
+                    }
+                ]
+            }
+        }
+    }
+
+}

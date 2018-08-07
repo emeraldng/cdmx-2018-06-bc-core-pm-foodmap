@@ -1,32 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- FontAwesome Icons-->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+    crossorigin="anonymous">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100" rel="stylesheet">
-  
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
   <title>FOODIES</title>
 </head>
+
 <body>
-  <div>
-  <select id="list" onclick="getSelectValue();">
-    <option value="all">All</option>
-    <option value="mexicana">Mexicana</option>
-    <option value="fastfood">Fast Food</option>
-    <option value="japonesa">Japonesa</option>
-    <option value="china">China</option>
-    </select>
-  </div>
+  <!-- Navbar  -->
+  <nav>
+    <div class="nav-wrapper">
+      <a href="" class="brand-logo center">La Roma</a>
+  </nav>
 
-  <div class="row">
-      <div class="card-white" id="selectedfood">
-      </div>
-  </div>
+  <br>
+  <section id="news-feed container valign-wrapper">
+    <div class="input-field">
+      <input id="search" type="search" required>
+      <label class="label-icon" for="search">
+        <i class="material-icons">BUSCAR</i>
+      </label>
+      <i class="material-icons">X</i>
+    </div>
 
+  </section>
+  <section>
+    <div class="input-field col s8">
+      <iframe class="resp-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.1818433476174!2d-99.16620468575!3d19.40454754660686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff1445ebc0cf%3A0x92d73b78f89f266b!2sTehuantepec+170%2C+Roma+Sur%2C+06760+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses!2smx!4v1533626317609"
+        width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </section>
+  <br>
+  <section>
+    <div class="input-field col s12">
+      <select>
+        <option value="all">All</option>
+        <button id="btn">
+          <option value="mexicana">Mexicana</option>
+        </button>
+        <option value="japonesa">Japonesa</option>
+        <option value="vegana">Vegana</option>
+      </select>
+      <label>Tipo de Comida</label>
+    </div>
+  </section>
+  <br>
+
+  <p>hola</p>
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="materialize.js"></script>
+  <script src="googlemap.js"></script>
   <script src="app.js"></script>
 </body>
+
 </html>
