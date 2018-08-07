@@ -61,7 +61,7 @@
             }
         }
     },
-    "comidafastfood": {
+    "comidajaponesa": {
         "restaurante": {
             "japones": {
                 "places": [{
@@ -123,7 +123,7 @@
             }
         }
     },
-    "comidajaponesa": {
+    "comidafastfood": {
         "restaurante": {
             "fastfood": {
                 "places": [{

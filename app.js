@@ -1,4 +1,4 @@
-const api = "https://api.myjson.com/bins/10pbxc";
+const api = "https://raw.githubusercontent.com/emeraldng/cdmx-2018-06-bc-core-pm-foodmap/master/foodplaces.json";
 
 window.onload = () => {
     fetch(api)
@@ -47,7 +47,9 @@ window.restaurantMexs = (data) => {
                           <span class="card-title">${data.comidamex.restaurante[info[restaurante]].places[i].nombre}</span>
                           </div>
                           <div class="card-content">
+                          <p>${data.comidamex.restaurante[info[restaurante]].places[i].categoria}</p>
                           <p>${data.comidamex.restaurante[info[restaurante]].places[i].comentario}</p>
+                          <p>Princing: ${data.comidamex.restaurante[info[restaurante]].places[i].pricing}</p>
                            </div>
                            <div class="card-action">
                            <a class="waves-effect waves-light btn modal-trigger" href="#modal1">+ INFO</a>
