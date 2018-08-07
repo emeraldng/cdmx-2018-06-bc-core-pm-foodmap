@@ -63,61 +63,61 @@
     },
     "comidafastfood": {
         "restaurante": {
-            "fastfood": {
+            "japones": {
                 "places": [{
-                        "nombre": " ",
-                        "categoria": " ",
-                        "pricing": " ",
-                        "domicilio": " ",
+                        "nombre": "El gran Sensei",
+                        "categoria": "japonesa",
+                        "pricing": "Moderado",
+                        "domicilio": "Monterrey 453, col Roma, CDMX",
                         "localizacion": " ",
-                        "tel": " ",
-                        "horario": " ",
+                        "tel": "01 55 79 43 12",
+                        "horario": "10:00 - 20:00 ",
                         "foto": "url",
-                        "comentario": " "
+                        "comentario": "Comida japonesa en una mezcla de lo oriental con lo mexicano, sabores innovadores "
                     },
                     {
-                        "nombre": " ",
-                        "categoria": " ",
-                        "pricing": " ",
-                        "domicilio": " ",
+                        "nombre": "Mikasa",
+                        "categoria": "japonesa ",
+                        "pricing": "Económico",
+                        "domicilio": "Durango 286, col Roma, CDMX ",
                         "localizacion": " ",
-                        "tel": " ",
-                        "horario": " ",
+                        "tel": "01 59 01 12 00 ",
+                        "horario": "11:00-19:00 ",
                         "foto": "url",
-                        "comentario": " "
+                        "comentario": "Supermercado japónes con productos orientales y barra de bocadillos asiaticos "
                     },
                     {
-                        "nombre": " ",
-                        "categoria": " ",
-                        "pricing": " ",
-                        "domicilio": " ",
+                        "nombre": "Maid Cafe Moshi Moshi",
+                        "categoria": "Japonesa",
+                        "pricing": "Moderado ",
+                        "domicilio": "Av de los Insurgentes 286, Col Roma, CDMX",
                         "localizacion": " ",
-                        "tel": " ",
-                        "horario": " ",
+                        "tel": "01 55 78 96 42 ",
+                        "horario": "13:00-7:00 ",
                         "foto": "url",
-                        "comentario": " "
+                        "comentario": "Café estilo Akihabara con temática de anime y videojuegos, atendido por maids kawaii "
                     },
                     {
-                        "nombre": " ",
-                        "categoria": " ",
-                        "pricing": " ",
-                        "domicilio": " ",
+                        "nombre": "Daikoku",
+                        "categoria": "Japonesa ",
+                        "pricing": "Deluxe ",
+                        "domicilio": "Nayarit 189, Col Roma, CDMX",
                         "localizacion": " ",
-                        "tel": " ",
+                        "tel": "01 56 13 89 12 ",
                         "horario": " ",
                         "foto": "url",
-                        "comentario": " "
+                        "comentario": "Restaurante japonés gourmet, una experiencia para paladares exigentes "
                     },
                     {
-                        "nombre": " ",
-                        "categoria": " ",
-                        "pricing": " ",
-                        "domicilio": " ",
+                        "nombre": "Sushi Roll ",
+                        "categoria": "Japonesa ",
+                        "pricing": "Moderado ",
+                        "domicilio": "Monterey 589, Col Roma, CDMX ",
                         "localizacion": " ",
-                        "tel": " ",
-                        "horario": " ",
+                        "tel": "01 13 56 82 46  ",
+                        "horario": "11:00-22:00 ",
                         "foto": "url",
-                        "comentario": " "
+                        "comentario": "Establecimiento de comida japonesa, especilizada en makis. Ambiente 100% familiar "
                     }
                 ]
             }
@@ -125,61 +125,61 @@
     },
     "comidajaponesa": {
         "restaurante": {
-            "japones": {
+            "fastfood": {
                 "places": [{
-                        "nombre": " ",
-                        "categoria": " ",
-                        "pricing": " ",
-                        "domicilio": " ",
+                        "nombre": "Pizzarello ",
+                        "categoria": "Fast Food",
+                        "pricing": "Deluxe ",
+                        "domicilio": "Orizaba 512, Col Roma, CDMX ",
                         "localizacion": " ",
-                        "tel": " ",
-                        "horario": " ",
+                        "tel": "01 59 32 19 74  ",
+                        "horario": "14:00-23:00",
                         "foto": "url",
-                        "comentario": " "
+                        "comentario": "Pizza al mero estilo italiano, preparada artesanalmente con horno de leña"
                     },
                     {
-                        "nombre": " ",
-                        "categoria": " ",
-                        "pricing": " ",
-                        "domicilio": " ",
+                        "nombre": "Jotchos Joy",
+                        "categoria": "Fast Food ",
+                        "pricing": "Económico",
+                        "domicilio": "Oaxaca 634, Col Roma, CDMX ",
                         "localizacion": " ",
-                        "tel": " ",
-                        "horario": " ",
+                        "tel": "01 13 94 23 58 ",
+                        "horario": "10:00-22:00",
                         "foto": "url",
-                        "comentario": " "
+                        "comentario": "Establecimiento de cómida rápida para llevar, perfecto para el antojo"
                     },
                     {
-                        "nombre": " ",
-                        "categoria": " ",
-                        "pricing": " ",
-                        "domicilio": " ",
+                        "nombre": "Wendy's",
+                        "categoria": "Fast Food",
+                        "pricing": "Moderado",
+                        "domicilio": "Av de los Insurgentes 1897, Col Roma, CDMX",
                         "localizacion": " ",
-                        "tel": " ",
+                        "tel": "01 79 13 85 30",
                         "horario": " ",
                         "foto": "url",
-                        "comentario": " "
+                        "comentario": "Famoso establecimiento de hamburguesas y papitas, 100% estilo americano "
                     },
                     {
-                        "nombre": " ",
-                        "categoria": " ",
-                        "pricing": " ",
-                        "domicilio": " ",
+                        "nombre": "Boop-Betty's",
+                        "categoria": "Fast Food",
+                        "pricing": "Moderado",
+                        "domicilio": "Mérida 579, Col Roma, CDMX",
                         "localizacion": " ",
-                        "tel": " ",
-                        "horario": " ",
+                        "tel": "01 79 63 13 56",
+                        "horario": "12:00 - 19:00",
                         "foto": "url",
-                        "comentario": " "
+                        "comentario": "Fuente de Sodas al estilo de los 50s, hermosa decoración y malteadas y hamburguesas enormes"
                     },
                     {
-                        "nombre": " ",
-                        "categoria": " ",
-                        "pricing": " ",
-                        "domicilio": " ",
-                        "localizacion": " ",
-                        "tel": " ",
-                        "horario": " ",
+                        "nombre": "Taquería El Cuñado ",
+                        "categoria": "Fast Food",
+                        "pricing": "Económico",
+                        "domicilio": "Av de los Insurgentes 1978, Col Roma, CDMX",
+                        "localizacion": "",
+                        "tel": "01 79 63 46 85",
+                        "horario": "17:00 - 00:00",
                         "foto": "url",
-                        "comentario": " "
+                        "comentario": "La clásica taquería de barrio, ambiente relajado y deliciosos taquitos en gran variedad"
                     }
                 ]
             }
