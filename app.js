@@ -37,10 +37,10 @@ window.restaurantMexs = (data) => {
                                     <div class='col xl4'>
                                    <div class='card'>
                       
-                                   <span class="card-title-center">${data.comidamex.restaurante[info[restaurante]].places[i].nombre}</span>
+                                   <span class="card-title" align="center">${data.comidamex.restaurante[info[restaurante]].places[i].nombre}</span>
                                    <div class="card-content center">
                                    <p>Rango de precios: ${data.comidamex.restaurante[info[restaurante]].places[i].pricing}</p>
-                                   <img class="responsive-img" src="${data.comidamex.restaurante[info[restaurante]].places[i].foto}" height="100" width="100"></img>
+                                   <img class="responsive-img" src="${data.comidamex.restaurante[info[restaurante]].places[i].foto}" height="150" width="150"></img>
                                     </div>
                      
                   </div>
