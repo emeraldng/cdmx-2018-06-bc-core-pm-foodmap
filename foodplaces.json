@@ -72,7 +72,7 @@
                         "localizacion": " ",
                         "tel": "01 55 79 43 12",
                         "horario": "10:00 - 20:00 ",
-                        "foto": "url",
+                        "foto": "http://i65.tinypic.com/2j3jl0z.jpg",
                         "comentario": "Comida japonesa en una mezcla de lo oriental con lo mexicano, sabores innovadores "
                     },
                     {
@@ -83,7 +83,7 @@
                         "localizacion": " ",
                         "tel": "01 59 01 12 00 ",
                         "horario": "11:00-19:00 ",
-                        "foto": "url",
+                        "foto": "http://i64.tinypic.com/2me9wk8.jpg",
                         "comentario": "Supermercado japónes con productos orientales y barra de bocadillos asiaticos "
                     },
                     {
@@ -94,7 +94,7 @@
                         "localizacion": " ",
                         "tel": "01 55 78 96 42 ",
                         "horario": "13:00-7:00 ",
-                        "foto": "url",
+                        "foto": "http://i63.tinypic.com/2jeadx.jpg",
                         "comentario": "Café estilo Akihabara con temática de anime y videojuegos, atendido por maids kawaii "
                     },
                     {
@@ -102,10 +102,10 @@
                         "categoria": "Japonesa ",
                         "pricing": "Deluxe ",
                         "domicilio": "Nayarit 189, Col Roma, CDMX",
-                        "localizacion": " ",
+                        "localizacion": "",
                         "tel": "01 56 13 89 12 ",
                         "horario": " ",
-                        "foto": "url",
+                        "foto": "http://i67.tinypic.com/2dwenn5.jpg",
                         "comentario": "Restaurante japonés gourmet, una experiencia para paladares exigentes "
                     },
                     {
@@ -116,7 +116,7 @@
                         "localizacion": " ",
                         "tel": "01 13 56 82 46  ",
                         "horario": "11:00-22:00 ",
-                        "foto": "url",
+                        "foto": "http://i65.tinypic.com/2419o4m.jpg",
                         "comentario": "Establecimiento de comida japonesa, especilizada en makis. Ambiente 100% familiar "
                     }
                 ]
@@ -134,7 +134,7 @@
                         "localizacion": " ",
                         "tel": "01 59 32 19 74  ",
                         "horario": "14:00-23:00",
-                        "foto": "url",
+                        "foto": "http://i66.tinypic.com/206fsdh.jpg",
                         "comentario": "Pizza al mero estilo italiano, preparada artesanalmente con horno de leña"
                     },
                     {
@@ -145,7 +145,7 @@
                         "localizacion": " ",
                         "tel": "01 13 94 23 58 ",
                         "horario": "10:00-22:00",
-                        "foto": "url",
+                        "foto": "http://i66.tinypic.com/6r3cxz.jpg",
                         "comentario": "Establecimiento de cómida rápida para llevar, perfecto para el antojo"
                     },
                     {
@@ -156,7 +156,7 @@
                         "localizacion": " ",
                         "tel": "01 79 13 85 30",
                         "horario": " ",
-                        "foto": "url",
+                        "foto": "http://i63.tinypic.com/nnvby1.jpg",
                         "comentario": "Famoso establecimiento de hamburguesas y papitas, 100% estilo americano "
                     },
                     {
@@ -167,7 +167,7 @@
                         "localizacion": " ",
                         "tel": "01 79 63 13 56",
                         "horario": "12:00 - 19:00",
-                        "foto": "url",
+                        "foto": "http://i65.tinypic.com/24l56pd.jpg",
                         "comentario": "Fuente de Sodas al estilo de los 50s, hermosa decoración y malteadas y hamburguesas enormes"
                     },
                     {
@@ -178,7 +178,7 @@
                         "localizacion": "",
                         "tel": "01 79 63 46 85",
                         "horario": "17:00 - 00:00",
-                        "foto": "url",
+                        "foto": "http://i66.tinypic.com/28sxb1i.jpg",
                         "comentario": "La clásica taquería de barrio, ambiente relajado y deliciosos taquitos en gran variedad"
                     }
                 ]
