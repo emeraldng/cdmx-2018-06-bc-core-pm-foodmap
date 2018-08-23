@@ -1,4 +1,4 @@
-const api = "https://api.myjson.com/bins/161tpk";
+const api = "https://api.myjson.com/bins/zmv1s";
 
 window.onload = () => {
     fetch(api)
@@ -23,7 +23,7 @@ window.restaurantMexs = (data) => {
     document.getElementById('btn').addEventListener('click', (event) => {
         let result = '';
         const info = Object.keys(data.comidamex.restaurante);
-       
+
 
         for (var restaurante in info) {
             if (info.hasOwnProperty(restaurante)) {
@@ -32,10 +32,10 @@ window.restaurantMexs = (data) => {
 
                 let arrmexfoodLength = arrmexfood.length;
                 //console.log(arrmexfoodLength);
-                
+
 
                 for (let i = 0; i < arrmexfoodLength; i++) {
-                   
+
                     result += `
                     <div class="row">
                     <div class="col s12 m7">
@@ -50,8 +50,8 @@ window.restaurantMexs = (data) => {
                           <p>Princing: ${data.comidamex.restaurante[info[restaurante]].places[i].pricing}</p>
                            </div>
                            <div class="card-action">
-                           <a class="waves-effect waves-light btn modal-trigger" href="#modal1">+ INFO</a>
-                           <div id="modal1" class="modal">
+                           <a class="waves-effect waves-light btn modal-trigger" href="#modal${data.comidamex.restaurante[info[restaurante]].places[i].id}">+ INFO</a>
+                           <div id="modal${data.comidamex.restaurante[info[restaurante]].places[i].id}" class="modal">
                            <div class="modal-content">
                            <h5>${data.comidamex.restaurante[info[restaurante]].places[i].nombre}</h5>
                            <p>Domicilio: ${data.comidamex.restaurante[info[restaurante]].places[i].domicilio}</p>
@@ -66,10 +66,8 @@ window.restaurantMexs = (data) => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                    `
-                    i++;
-                    
+                  </div>`
+
                 }
             }
             container.innerHTML = result;
@@ -91,16 +89,16 @@ window.restaurantJapo = (data) => {
     document.getElementById('btn1').addEventListener('click', (event) => {
         let result = '';
         const info = Object.keys(data.comidajaponesa.restaurante);
-       
+
 
         for (var restaurante in info) {
             if (info.hasOwnProperty(restaurante)) {
                 let arrjapfood = data.comidajaponesa.restaurante[info[restaurante]].places;
-                
+
 
                 let arrjapfoodLength = arrjapfood.length;
-                
-                
+
+
 
                 for (i = 0; i < arrjapfoodLength; i++) {
                     $(document).ready(function () {
@@ -138,7 +136,7 @@ window.restaurantJapo = (data) => {
                     </div>
                   </div>
                     `
-                    
+
                 }
             }
             container.innerHTML = result;
@@ -152,16 +150,16 @@ window.restaurantFastFood = (data) => {
     document.getElementById('btn2').addEventListener('click', (event) => {
         let result = '';
         const info = Object.keys(data.comidafastfood.restaurante);
-       
+
 
         for (var restaurante in info) {
             if (info.hasOwnProperty(restaurante)) {
                 let arrfastfood = data.comidafastfood.restaurante[info[restaurante]].places;
-                
+
 
                 let arrfastfoodLength = arrfastfood.length;
-                
-                
+
+
 
                 for (i = 0; i < arrfastfoodLength; i++) {
                     $(document).ready(function () {
@@ -199,7 +197,7 @@ window.restaurantFastFood = (data) => {
                     </div>
                   </div>
                     `
-                    
+
                 }
             }
             container.innerHTML = result;
